@@ -8,6 +8,7 @@ lowestKey = nil
 name_hash.each do |key, value|
   if lowestValue == 0 || value < lowestValue
     lowestValue = value
+
     lowestKey = key
   end
   end
